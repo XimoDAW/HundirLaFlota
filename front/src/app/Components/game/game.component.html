@@ -1,0 +1,14 @@
+<div class="c-map" *ngFor="let x of botMap.x">
+    <div class="c-map__length" *ngFor="let y of botMap.y">
+        <button id="{{botMap.letter}}{{x}}{{y}}" (click)="fireBoat(botMap.letter, x, y)">O</button>
+    </div>
+</div>
+
+<!-- Prototipo de mapa. Obviamente habra que poner estilos -->
+
+<div>-------------------------</div>
+<div class="c-map" *ngFor="let x of playerMap.x">
+    <div class="c-map__length" *ngFor="let y of playerMap.y">
+        <button id="{{playerMap.letter}}{{x}}{{y}}" (click)="fireBoat(playerMap.letter, x, y)">O</button>
+    </div>
+</div>
