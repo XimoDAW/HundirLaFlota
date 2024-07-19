@@ -2,5 +2,19 @@
     display: flex;
 }
 
-.c-map__length {
+.c-map__button {
+    height: 40px;
+    width: 40px;
+}
+
+.c-map__button--red {
+    background-color: red;
+}
+
+.c-map__button--yellow {
+    background-color: yellow;
+}
+
+.c-map__button--green {
+    background-color: green;
 }
