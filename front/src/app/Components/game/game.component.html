@@ -1,8 +1,8 @@
 <h2 *ngIf="!startGame">SELECCIONE SUS BARCOS: {{boatsPlayer}}</h2>
 <h2 *ngIf="startGame">A JUGAR!!</h2>
 <div *ngIf="startGame">
-    <h3 *ngIf="turnPlayer">TU TURNO</h3>
-    <h3 *ngIf="!turnPlayer">TURNO DEL BOT</h3>
+    <h3 *ngIf="player.turn">TU TURNO</h3>
+    <h3 *ngIf="!player.turn">TURNO DEL BOT</h3>
 </div>
 
 <h3>MAPA DEL BOT</h3>
