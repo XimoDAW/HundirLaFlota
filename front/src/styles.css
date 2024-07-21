@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+.c-background {
+    background-image: url('assets/524991-pirate-flag.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

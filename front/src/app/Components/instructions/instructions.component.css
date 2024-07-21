@@ -1,0 +1,36 @@
+.c-instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: inset;
+    border-radius: 6px;
+    border-color: black;
+    width: 200px;
+    height: 100px;
+    margin-top: 0px;
+    padding-top: 30px;
+    margin: auto;
+
+}
+
+.c-title {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.c-button {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c-button:hover {
+    cursor: pointer;
+}
+
+.c-button--orange {
+    background-color: orange;
+}
