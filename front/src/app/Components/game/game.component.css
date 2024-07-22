@@ -1,5 +1,14 @@
 .c-map {
     display: flex;
+    justify-content: center
+}
+
+.c-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .c-map__button {
@@ -17,4 +26,12 @@
 
 .c-map__button--green {
     background-color: green;
+}
+
+.c-button {
+    background-color: orange;
+}
+
+.c-button:hover {
+    cursor: pointer;
 }

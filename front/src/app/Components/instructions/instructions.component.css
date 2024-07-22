@@ -6,9 +6,9 @@
     border-radius: 6px;
     border-color: black;
     width: 200px;
-    height: 100px;
     margin-top: 0px;
-    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: auto;
 
 }
@@ -25,6 +25,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 .c-button:hover {

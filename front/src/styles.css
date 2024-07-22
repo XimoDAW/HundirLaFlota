@@ -1,5 +1,6 @@
 .c-background {
-    background-image: url('assets/524991-pirate-flag.jpg');
+    background-image: url('assets/battleship.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
 }

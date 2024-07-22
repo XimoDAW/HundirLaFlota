@@ -75,8 +75,6 @@ export class GameComponent {
   //EL JUGADOR DISPARA UN CUADRADO DEL BOT
   fireBoat(letter: string, x: number, y: number) {
     let a = document.getElementById(letter + x.toString() + y.toString());
-    //BOORRAAAAR
-    console.log(this.botMap.positions);
 
     if (!this.startGame) {
       alert("Primero selecciona donde quieres colocar tus barcos")
@@ -116,9 +114,6 @@ export class GameComponent {
 
   botFiredBoats() {
     let fire: boolean = true;
-
-    //BOORRAAAAR
-    console.log(this.playerMap.positions);
 
     while (fire) {
       let x: number = Math.floor(Math.random() * (this.bot.boats));
@@ -174,9 +169,6 @@ export class GameComponent {
       }
       this.botPositions.splice(0, 1);
       this.botBoats = false;
-
-      //BOORRAR
-      console.log(this.botPositions)
     }
   }
 
